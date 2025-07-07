@@ -18,9 +18,10 @@ Steps:
 2. Navigate to project root (CAP4770-Project).
 3. Download [WELFake_dataset.csv](https://www.kaggle.com/datasets/saurabhshahane/fake-news-classification/data).
     - Must be named exactly and placed in project root.
-4. Give permissions to `docker-control.sh`:
+4. Give permissions to `docker-control.sh` and `start.sh`:
     ```
     chmod +x docker-control.sh
+    chmod +x start.sh
     ```
 5. Build and run the containers: 
    ```
