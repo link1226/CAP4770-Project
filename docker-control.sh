@@ -31,6 +31,7 @@ case "$1" in
 
         echo "Building Docker image..."
         docker build -t "$IMAGE_NAME" .
+
         echo "Build complete!"
         ;;
     start)
