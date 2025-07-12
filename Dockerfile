@@ -17,9 +17,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copy your code and data
 COPY . .
 
-# Create DB
-RUN python load_csv.py
-
 # Expose ports:
 # - 8501 for Streamlit
 # - 8888 for Jupyter

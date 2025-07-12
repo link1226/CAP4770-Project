@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Load DB
+python load_csv.py
+
 # Start Jupyter lab in the background
 # NotebookApp.token removed do not use this outside of your local machine
 jupyter lab --ip=0.0.0.0 --port=8888 --no-browser --NotebookApp.token='1234' --allow-root &
