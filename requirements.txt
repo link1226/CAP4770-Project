@@ -3,3 +3,4 @@ pandas
 jupyterlab
 scikit-learn
 matplotlib
+statsmodels
